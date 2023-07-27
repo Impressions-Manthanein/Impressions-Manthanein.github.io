@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#qr{
+    margin-left: 35%;
+    margin-top: 7%;
+    animation: mymove 40s infinite;
+    text-align: center;
+    border-radius: 10%;
+  }
+
+@keyframes mymove {
+    50% {
+        transform: rotate(180deg);
+        transform: rotatey(360deg);
+    }
+  }
